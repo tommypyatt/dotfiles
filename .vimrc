@@ -49,6 +49,8 @@ set backspace=indent,eol,start
 set whichwrap=h,l,b,<,>,~,[,]
 " Underscores denote words
 set iskeyword-=_
+" Set updatetime to something more useful for gitgutter
+set updatetime=250
 
 
 " Visual decorations
