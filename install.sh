@@ -1,3 +1,12 @@
+#!/bin/bash
+read -p "This will replace your config files, are you sure? " -n 1 -r
+echo    # (optional) move to a new line
+if [[ $REPLY =~ ^[Yy]$ ]]
+then
+
+# Confirmed, let's do it
+
+# Store my directory to for symlinking
 mydir="$PWD"
 cd
 
@@ -45,3 +54,4 @@ then
     git clone git://github.com/airblade/vim-gitgutter.git
 fi
 
+fi
