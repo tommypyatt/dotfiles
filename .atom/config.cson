@@ -4,7 +4,7 @@
   welcome:
     showOnStartup: false
   core:
-    autoHideMenuBar: true
+    autoHideMenuBar: false
     themes: [
       "seti-ui"
       "seti-syntax"
