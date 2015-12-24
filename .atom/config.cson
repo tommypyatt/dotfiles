@@ -17,7 +17,7 @@
     tabLength: 4
     showIndentGuide: true
     showInvisibles: true
-    softTabs: false
+    softTabs: true
   whitespace:
     ensureSingleTrailingNewline: false
   "tree-view":
