@@ -1,19 +1,37 @@
 mydir="$PWD"
 cd
 
-rm .gitconfig
+if [ -e ".gitconfig" ]
+then
+    rm .gitconfig
+fi
 ln -s "$mydir"/.gitconfig
 
-rm .zshrc
+if [ -e ".zshrc" ]
+then
+    rm .zshrc
+fi
 ln -s "$mydir"/.zshrc
 
-rm .vimrc
+if [ -e ".vimrc" ]
+then
+    rm .vimrc
+fi
 ln -s "$mydir"/.vimrc
 
 mkdir -p .atom
 cd .atom
-rm config.cson
+
+
+if [ -e ".config.cson" ]
+then
+    rm config.cson
+fi
 ln -s "$mydir"/.atom/config.cson
-rm snippets.cson
+
+if [ -e ".config.cson" ]
+then
+    rm snippets.cson
+fi
 ln -s "$mydir"/.atom/snippets.cson
 
