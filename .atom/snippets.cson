@@ -24,3 +24,6 @@
   'Get URL':
     'prefix': 'geturl'
     'body': '<?php echo $this->getUrl(\'\') ?>'
+  'Get Child HTML':
+    'prefix': 'chtml'
+    'body': '<?php echo $this->getChildHtml(\'\') ?>'
