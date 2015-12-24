@@ -19,5 +19,3 @@ alias b=$BUILD_DIR
 alias c=$SRC_DIR
 alias x=exit
 
-alias mr="magerun --root-dir=$BUILD_DIR/$PROJECT"
-
