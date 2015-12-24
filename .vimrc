@@ -82,3 +82,6 @@ set ignorecase
 " ...except if we input a capital letter
 set smartcase
 
+
+execute pathogen#infect()
+
