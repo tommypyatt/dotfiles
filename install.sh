@@ -7,6 +7,9 @@ ln -s "$mydir"/.gitconfig
 rm .zshrc
 ln -s "$mydir"/.zshrc
 
+rm .vimrc
+ln -s "$mydir"/.vimrc
+
 mkdir -p .atom
 cd .atom
 rm config.cson
