@@ -1,0 +1,51 @@
+[credential]
+helper = /opt/boxen/bin/boxen-git-credential
+
+[core]
+    editor = vim
+    excludesfile = /opt/boxen/config/git/gitignore
+
+[hub]
+protocol = https
+
+[user]
+    name = Tommy Pyatt
+    email = tp@amp.co
+
+[color]
+    diff = auto
+    status = auto
+    branch = auto
+	interactive = true
+	ui = true
+    pager = true
+
+[color "status"]
+    added = green
+    changed = blue
+    untracked = red
+
+[color "diff"]
+    meta = yellow
+    old = red
+    new = green
+
+[alias]
+    st = status
+    ci = commit
+    br = branch
+    co = checkout
+    df = diff
+    last = "diff HEAD^ HEAD"
+
+[core]
+    editor = vim
+    excludesfile = /opt/boxen/config/git/gitignore
+	autocrlf = input
+
+[push]
+    default = current
+[filter "lfs"]
+	smudge = git-lfs smudge %f
+	required = true
+	clean = git-lfs clean %f
