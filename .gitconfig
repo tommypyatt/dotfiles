@@ -16,13 +16,13 @@ protocol = https
     diff = auto
     status = auto
     branch = auto
-	interactive = true
-	ui = true
+    interactive = true
+    ui = true
     pager = true
 
 [color "status"]
     added = green
-    changed = blue
+    changed = yellow
     untracked = red
 
 [color "diff"]
@@ -41,11 +41,13 @@ protocol = https
 [core]
     editor = vim
     excludesfile = /opt/boxen/config/git/gitignore
-	autocrlf = input
+    autocrlf = input
 
 [push]
     default = current
+
 [filter "lfs"]
-	smudge = git-lfs smudge %f
-	required = true
-	clean = git-lfs clean %f
+    smudge = git-lfs smudge %f
+    required = true
+    clean = git-lfs clean %f
+
