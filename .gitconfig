@@ -1,12 +1,12 @@
 [credential]
-helper = /opt/boxen/bin/boxen-git-credential
+    helper = /opt/boxen/bin/boxen-git-credential
 
 [core]
     editor = vim
     excludesfile = /opt/boxen/config/git/gitignore
 
 [hub]
-protocol = https
+    protocol = https
 
 [user]
     name = Tommy Pyatt
