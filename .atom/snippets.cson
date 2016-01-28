@@ -27,3 +27,7 @@
   'Get Child HTML':
     'prefix': 'chtml'
     'body': '<?php echo $this->getChildHtml(\'\') ?>'
+'.text.xml':
+  'Magento layout block':
+    'prefix': 'block'
+    'body': '<block type="" name="" as="" template=""></block>'
