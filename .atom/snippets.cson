@@ -20,14 +20,17 @@
 '.text.html':
   'Translation Method':
     'prefix': 'trans'
-    'body': '<?php echo $this->__(\'\') ?>'
+    'body': '<?php echo $this->__(\'${1:text}\') ?>'
   'Get URL':
     'prefix': 'geturl'
-    'body': '<?php echo $this->getUrl(\'\') ?>'
+    'body': '<?php echo $this->getUrl(\'${1:ref}\') ?>'
   'Get Child HTML':
     'prefix': 'chtml'
-    'body': '<?php echo $this->getChildHtml(\'\') ?>'
+    'body': '<?php echo $this->getChildHtml(\'${1:child}\') ?>'
 '.text.xml':
   'Magento layout block':
     'prefix': 'block'
-    'body': '<block type="" name="" as="" template=""></block>'
+    'body': '<block type="${1:type}" name="${2:name}" as="${3:alias}" template="${4:template}">$5</block>'
+  'Magento layout reference':
+    'prefix': 'ref'
+    'body': '<reference name="${1:name}">$2</reference>'
