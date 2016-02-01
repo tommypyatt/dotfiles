@@ -34,3 +34,7 @@
   'Magento layout reference':
     'prefix': 'ref'
     'body': '<reference name="${1:name}">$2</reference>'
+  'Magento layout remove':
+    'prefix': 'remove'
+    'body': '<remove name="${1:name}" />'
+
