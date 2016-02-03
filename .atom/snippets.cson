@@ -27,6 +27,18 @@
   'Get Child HTML':
     'prefix': 'chtml'
     'body': '<?php echo $this->getChildHtml(\'${1:child}\') ?>'
+  'Placeholder':
+    'prefix': 'plh'
+    'body': '<p><pre>$1</pre></p'
+  'Paragraph':
+  # Override atom default, which includes an awkward newline.
+    'prefix': 'p'
+    'body': '<p>$1</p>'
+  'Span':
+  # Who adds a span without a class, right?
+    'prefix': 'span'
+    'body': '<span class="${1:class-name}">$2</span>'
+
 '.text.xml':
   'Magento layout block':
     'prefix': 'block'

@@ -1,26 +1,36 @@
 "*":
-  "exception-reporting":
-    userId: "51632a13-5c8e-a497-1c58-6b189c1cd97e"
-  welcome:
-    showOnStartup: false
   core:
     autoHideMenuBar: false
+    disabledPackages: [
+      "whitespace"
+      "wrap-guide"
+    ]
     themes: [
       "seti-ui"
       "seti-syntax"
     ]
-    disabledPackages: [
-      "whitespace"
-    ]
   editor:
     invisibles: {}
-    tabLength: 4
     showIndentGuide: true
     showInvisibles: true
     softTabs: true
-  whitespace:
-    ensureSingleTrailingNewline: false
+    tabLength: 4
+  "exception-reporting":
+    userId: "51632a13-5c8e-a497-1c58-6b189c1cd97e"
+  minimap: {}
   "tree-view":
     hideVcsIgnoredFiles: true
-  minimap: {}
   "vim-mode": {}
+  welcome:
+    showOnStartup: false
+  whitespace:
+    ensureSingleTrailingNewline: false
+".text.xml":
+  editor:
+    preferredLineLength: 120
+  "multi-wrap-guide":
+    columns: [
+      80
+      120
+    ]
+    rows: []

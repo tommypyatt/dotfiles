@@ -31,9 +31,10 @@ cd .atom
 echo "Linking atom config and snippets"
 rm -f config.cson
 ln -s "$mydir"/.atom/config.cson
-
 rm -f snippets.cson
 ln -s "$mydir"/.atom/snippets.cson
+rm -f styles.less
+ln -s "$mydir"/.atom/styles.less
 
 # Install vim pathogen
 echo "Installing pathogen and vim-gitgutter"
