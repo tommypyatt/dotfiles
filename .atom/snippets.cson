@@ -29,7 +29,7 @@
     'body': '<?php echo $this->getChildHtml(\'${1:child}\') ?>'
   'Placeholder':
     'prefix': 'plh'
-    'body': '<p><pre>$1</pre></p'
+    'body': '<p><pre>$1</pre></p>'
   'Paragraph':
   # Override atom default, which includes an awkward newline.
     'prefix': 'p'
