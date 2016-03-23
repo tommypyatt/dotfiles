@@ -36,6 +36,7 @@
     br = branch
     co = checkout
     df = diff
+    pop = "stash pop"
     last = "diff HEAD^ HEAD"
 
 [core]
