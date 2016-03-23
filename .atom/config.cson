@@ -5,6 +5,7 @@
       "whitespace"
       "wrap-guide"
     ]
+    excludeVcsIgnoredPaths: false
     themes: [
       "seti-ui"
       "seti-syntax"
@@ -18,13 +19,51 @@
   "exception-reporting":
     userId: "51632a13-5c8e-a497-1c58-6b189c1cd97e"
   minimap: {}
-  "tree-view":
-    hideVcsIgnoredFiles: true
+  "tree-view": {}
   "vim-mode": {}
   welcome:
     showOnStartup: false
   whitespace:
     ensureSingleTrailingNewline: false
+".css.scss.source":
+  editor:
+    preferredLineLength: 80
+  "multi-wrap-guide":
+    columns: [
+      80
+      120
+    ]
+".html.mustache.text":
+  editor:
+    preferredLineLength: 80
+  "multi-wrap-guide":
+    columns: [
+      80
+      120
+    ]
+".html.php.text":
+  editor:
+    preferredLineLength: 80
+  "multi-wrap-guide":
+    columns: [
+      80
+      120
+    ]
+".js.source":
+  editor:
+    preferredLineLength: 120
+  "multi-wrap-guide":
+    columns: [
+      80
+      120
+    ]
+".null-grammar.plain.text":
+  editor:
+    preferredLineLength: 80
+  "multi-wrap-guide":
+    columns: [
+      80
+    ]
 ".text.xml":
   editor:
     preferredLineLength: 120
