@@ -19,4 +19,5 @@ SRC_DIR=~/src
 alias b=$BUILD_DIR
 alias c=$SRC_DIR
 alias x=exit
+alias kmsql="killall mysql;killall mysqld;mysql.server start"
 
