@@ -49,4 +49,6 @@
   'Magento layout remove':
     'prefix': 'remove'
     'body': '<remove name="${1:name}" />'
-
+  'Magento layout update handle':
+    'prefix': 'update'
+    'body': '<upated handle="${1:name}" />'

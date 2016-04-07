@@ -35,7 +35,7 @@
     ]
 ".html.mustache.text":
   editor:
-    preferredLineLength: 80
+    preferredLineLength: 120
   "multi-wrap-guide":
     columns: [
       80
@@ -43,7 +43,7 @@
     ]
 ".html.php.text":
   editor:
-    preferredLineLength: 80
+    preferredLineLength: 120
   "multi-wrap-guide":
     columns: [
       80
