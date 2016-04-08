@@ -35,7 +35,7 @@
     'prefix': 'p'
     'body': '<p>$1</p>'
   'Span':
-  # Who adds a span without a class, right?
+  # Atom default span doesn't include a class.
     'prefix': 'span'
     'body': '<span class="${1:class-name}">$2</span>'
 
@@ -52,3 +52,9 @@
   'Magento layout update handle':
     'prefix': 'update'
     'body': '<upated handle="${1:name}" />'
+
+'.source.css.scss':
+  'Sass include':
+  # Atom default includes closing semi-colon, which I usually don't use.
+    'prefix': 'include'
+    'body': '@include '
