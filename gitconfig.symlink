@@ -38,6 +38,7 @@
     df = diff
     pop = "stash pop"
     last = "diff HEAD^ HEAD"
+    l = "log --oneline --graph"
 
 [core]
     editor = vim
