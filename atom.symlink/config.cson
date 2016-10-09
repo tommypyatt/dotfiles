@@ -3,7 +3,6 @@
     allowPendingPaneItems: false
     autoHideMenuBar: false
     disabledPackages: [
-      "whitespace"
       "wrap-guide"
     ]
     excludeVcsIgnoredPaths: false
