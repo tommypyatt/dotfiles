@@ -13,11 +13,9 @@ source $ZSH/oh-my-zsh.sh
 
 alias mr=n98-magerun.phar
 alias mysql="mysql -uroot"
-BUILD_DIR=~/builds
-SRC_DIR=~/src
+REPOS_DIR=~/repos
 
-alias b=$BUILD_DIR
-alias c=$SRC_DIR
+alias c=$REPOS_DIR
 alias x=exit
 alias kmsql="killall mysql;killall mysqld;mysql.server start"
 
