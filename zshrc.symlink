@@ -15,6 +15,11 @@ alias mr=n98-magerun.phar
 alias mysql="mysql -uroot"
 REPOS_DIR=~/repos
 
+alias a="atom ."
+alias v:up="vagrant up"
+alias v:halt="vagrant halt"
+alias v:st="vagrant global-status"
+alias v:ssh="vagrant ssh"
 alias c=$REPOS_DIR
 alias x=exit
 alias kmsql="killall mysql;killall mysqld;mysql.server start"
