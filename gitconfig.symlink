@@ -47,6 +47,7 @@
     editor = vim
     excludesfile = /opt/boxen/config/git/gitignore
     autocrlf = input
+    fileMode = false
 
 [push]
     default = current
