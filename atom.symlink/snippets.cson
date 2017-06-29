@@ -21,6 +21,12 @@
   'Translation Method':
     'prefix': 'trans'
     'body': '<?php echo $this->__(\'${1:text}\') ?>'
+  'M2 Translation Method':
+    'prefix': 'm2t'
+    'body': '<?php /* @escapeNotVerified */ echo __(\'${1:text}\') ?>'
+  'M@ echo':
+    'prefix': 'm2e'
+    'body': '<?php /* @escapeNotVerified */ echo $1 ?>'
   'Get URL':
     'prefix': 'geturl'
     'body': '<?php echo $this->getUrl(\'${1:ref}\') ?>'
@@ -52,6 +58,15 @@
   'Magento layout update handle':
     'prefix': 'update'
     'body': '<upated handle="${1:name}" />'
+  'Magento 2 reference block':
+    'prefix': 'rfb'
+    'body': '<referenceBlock name="${1:name}">$2</referenceBlock>'
+  'Magento 2 reference container':
+    'prefix': 'rfc'
+    'body': '<referenceContainer name="${1:name}">$2</referenceContainer>'
+  'Magento 2 move element':
+    'prefix': 'mv'
+    'body': '<move element="${1:name}" destination="${2:destination}" />'
 
 '.source.css.scss':
   'Sass include':

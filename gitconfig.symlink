@@ -32,7 +32,7 @@
 
 [alias]
     st = status
-    ci = commit
+    ci = commit -v
     br = branch
     co = checkout
     df = diff
@@ -42,12 +42,14 @@
     ignore = "update-index --assume-unchanged"
     unignore = "update-index --no-assume-unchanged"
     ignored = !git ls-files -v | grep "^[[:lower:]]"
+	pr = pull --rebase
 
 [core]
     editor = vim
     excludesfile = /opt/boxen/config/git/gitignore
     autocrlf = input
     fileMode = false
+    commentChar = "#"
 
 [push]
     default = current
@@ -57,3 +59,5 @@
     required = true
     clean = git-lfs clean %f
 
+[merge]
+    ff = false
