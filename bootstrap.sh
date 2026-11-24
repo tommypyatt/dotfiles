@@ -2,6 +2,7 @@
 #
 # bootstrap installs things.
 
+SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd -P)"
 cd "$(dirname "$0")/.."
 DOTFILES_ROOT=$(pwd -P)
 
@@ -115,6 +116,9 @@ install_dotfiles () {
 }
 
 install_dotfiles
+
+info 'installing vim plugins'
+"$SCRIPT_DIR/install/vim-packages.sh"
 
 # If we're on a Mac, let's install and setup homebrew.
 if [ "$(uname -s)" == "Darwin" ]

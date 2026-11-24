@@ -16,6 +16,7 @@ syntax enable
 set t_Co=256
 " Dark solarized scheme
 set background=dark
+colorscheme solarized
 
 
 " Set relevant filetypes
@@ -85,5 +86,4 @@ set ignorecase
 set smartcase
 
 
-execute pathogen#infect()
 
